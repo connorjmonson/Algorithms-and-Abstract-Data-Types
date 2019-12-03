@@ -1,0 +1,9 @@
+This is my Programming Assignment 3 submission. It includes:
+
+- Sparse.java (the client module for Matrix ADT) 
+- Matrix.java (ADT representing structure of a Matrix as an array of lists of objects)
+- List.java (modified PA1 List.java for objects) 
+- MatrixTest.java (test file to test Matrix ADT) 
+- ListTest.java (modified to test the new List.java ADT)
+- Makefile (creates executable jar file sparse)
+- README (this file)
