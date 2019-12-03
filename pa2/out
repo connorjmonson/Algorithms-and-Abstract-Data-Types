@@ -1,0 +1,29 @@
+	gcc -c -std=c99 -Wall Lex.c
+	gcc -c -std=c99 -Wall List.c
+	gcc -c -std=c99 -Wall ListClient.c
+	gcc -o Lex Lex.o List.o
+	gcc -o ListClient ListClient.o List.o
+	rm -f Lex ListClient Lex.o ListClient.o List.o
+ 
+
+
+
+
+
+ #
+#       make                   makes Lex
+#       make ListClient        makes ListClient
+#------------------------------------------------------------------------------
+
+# Makefile for CMPS 101 Programming Assignment 2
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# Makefile for CMPS 101 Programming Assignment 2
+Lex : Lex.o List.o
+Lex.o : Lex.c List.h
+List.o : List.c List.h
+ListClient.o : ListClient.c List.h
+ListClient: ListClient.o List.o
+	gcc -o ListClient ListClient.o List.o
+clean :
