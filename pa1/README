@@ -1,7 +1,6 @@
 This is my Programming Assignment 1 submission. It includes:
 
 - ListClient.java (unedited from given state) 
-- List.java (ADT that represents a doubly Linked List with cursor at the current Node)
+- List.java (List_PA1_OG.java - ADT that represents a doubly Linked List with cursor at the current Node)
 - Lex.java (client module for list ADT)
-- Makefile 
 - README (This document) 
